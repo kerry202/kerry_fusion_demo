@@ -1,0 +1,193 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.fusion.fusion_test"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/kerry/fusion_test/android/app/src/debug/AndroidManifest.xml:6:5-66
+15-->/Users/kerry/fusion_test/android/app/src/debug/AndroidManifest.xml:6:22-64
+16
+17    <application
+17-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:4:5-72:19
+18        android:name="com.example.fusion.fusion_test.MyApp"
+18-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:5:9-30
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.6.0] /Users/kerry/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:6:9-43
+22        android:label="fusion_test"
+22-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:7:9-36
+23        android:testOnly="true"
+24        android:theme="@style/Theme.AppCompat.NoActionBar" >
+24-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:8:9-59
+25        <activity
+25-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:9:9-28:20
+26            android:name="com.example.fusion.fusion_test.MainActivity"
+26-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:10:13-41
+27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+27-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:11:13-163
+28            android:exported="true"
+28-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:12:13-36
+29            android:hardwareAccelerated="true"
+29-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:13:13-47
+30            android:launchMode="singleTop"
+30-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:14:13-43
+31            android:theme="@style/LaunchTheme"
+31-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:15:13-47
+32            android:windowSoftInputMode="adjustResize" >
+32-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:16:13-55
+33
+34            <!--
+35                 Specifies an Android theme to apply to this Activity as soon as
+36                 the Android process has started. This theme is visible to the user
+37                 while the Flutter UI initializes. After that, this theme continues
+38                 to determine the Window background behind the Flutter UI.
+39            -->
+40            <meta-data
+40-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:21:13-23:57
+41                android:name="io.flutter.embedding.android.NormalTheme"
+41-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:22:17-72
+42                android:resource="@style/NormalTheme" />
+42-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:23:17-54
+43
+44            <intent-filter>
+44-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:24:13-27:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:25:17-69
+45-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:25:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:26:17-77
+47-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:26:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:30:9-38:15
+51            android:name="com.example.fusion.fusion_test.TransparentFusionActivity"
+51-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:31:13-54
+52            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+52-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:32:13-163
+53            android:exported="false"
+53-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:33:13-37
+54            android:hardwareAccelerated="true"
+54-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:34:13-47
+55            android:launchMode="standard"
+55-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:35:13-42
+56            android:theme="@style/FusionTransparentTheme"
+56-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:36:13-58
+57            android:windowSoftInputMode="adjustResize" />
+57-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:37:13-55
+58        <activity
+58-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:40:9-47:58
+59            android:name="com.example.fusion.fusion_test.CustomActivity"
+59-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:41:13-43
+60            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+60-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:42:13-163
+61            android:exported="false"
+61-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:43:13-37
+62            android:hardwareAccelerated="true"
+62-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:44:13-47
+63            android:launchMode="standard"
+63-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:45:13-42
+64            android:theme="@style/FusionNormalTheme"
+64-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:46:13-53
+65            android:windowSoftInputMode="adjustResize" />
+65-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:47:13-55
+66        <activity
+66-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:49:5-56:11
+67            android:name="com.example.fusion.fusion_test.NormalActivity"
+67-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:50:13-43
+68            android:exported="false"
+68-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:51:13-37
+69            android:hardwareAccelerated="true"
+69-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:52:13-47
+70            android:launchMode="standard"
+70-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:53:13-42
+71            android:theme="@style/FusionNormalTheme"
+71-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:54:13-53
+72            android:windowSoftInputMode="adjustResize" />
+72-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:55:13-55
+73        <activity
+73-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:58:9-65:11
+74            android:name="com.example.fusion.fusion_test.TestActivity"
+74-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:59:13-41
+75            android:exported="false"
+75-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:60:13-37
+76            android:hardwareAccelerated="true"
+76-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:61:13-47
+77            android:launchMode="standard"
+77-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:62:13-42
+78            android:theme="@style/Theme.AppCompat"
+78-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:63:13-51
+79            android:windowSoftInputMode="adjustResize" />
+79-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:64:13-55
+80
+81        <!--
+82             Don't delete the meta-data below.
+83             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+84        -->
+85        <meta-data
+85-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:69:9-71:33
+86            android:name="flutterEmbedding"
+86-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:70:13-44
+87            android:value="2" />
+87-->/Users/kerry/fusion_test/android/app/src/main/AndroidManifest.xml:71:13-30
+88
+89        <activity
+89-->[:fusion] /Users/kerry/fusion_test/build/fusion/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-17:58
+90            android:name="com.gtbluesky.fusion.container.FusionActivity"
+90-->[:fusion] /Users/kerry/fusion_test/build/fusion/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
+91            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+91-->[:fusion] /Users/kerry/fusion_test/build/fusion/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-163
+92            android:exported="false"
+92-->[:fusion] /Users/kerry/fusion_test/build/fusion/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+93            android:hardwareAccelerated="true"
+93-->[:fusion] /Users/kerry/fusion_test/build/fusion/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+94            android:launchMode="standard"
+94-->[:fusion] /Users/kerry/fusion_test/build/fusion/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-42
+95            android:theme="@style/FusionNormalTheme"
+95-->[:fusion] /Users/kerry/fusion_test/build/fusion/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-53
+96            android:windowSoftInputMode="adjustResize" />
+96-->[:fusion] /Users/kerry/fusion_test/build/fusion/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-55
+97        <activity
+97-->[:fusion] /Users/kerry/fusion_test/build/fusion/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-25:58
+98            android:name="com.gtbluesky.fusion.container.FusionFragmentActivity"
+98-->[:fusion] /Users/kerry/fusion_test/build/fusion/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-81
+99            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+99-->[:fusion] /Users/kerry/fusion_test/build/fusion/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-163
+100            android:exported="false"
+100-->[:fusion] /Users/kerry/fusion_test/build/fusion/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+101            android:hardwareAccelerated="true"
+101-->[:fusion] /Users/kerry/fusion_test/build/fusion/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+102            android:launchMode="standard"
+102-->[:fusion] /Users/kerry/fusion_test/build/fusion/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-42
+103            android:theme="@style/FusionNormalTheme"
+103-->[:fusion] /Users/kerry/fusion_test/build/fusion/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-53
+104            android:windowSoftInputMode="adjustResize" />
+104-->[:fusion] /Users/kerry/fusion_test/build/fusion/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-55
+105
+106        <uses-library
+106-->[androidx.window:window:1.0.0-beta04] /Users/kerry/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+107            android:name="androidx.window.extensions"
+107-->[androidx.window:window:1.0.0-beta04] /Users/kerry/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+108            android:required="false" />
+108-->[androidx.window:window:1.0.0-beta04] /Users/kerry/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+109        <uses-library
+109-->[androidx.window:window:1.0.0-beta04] /Users/kerry/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+110            android:name="androidx.window.sidecar"
+110-->[androidx.window:window:1.0.0-beta04] /Users/kerry/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+111            android:required="false" />
+111-->[androidx.window:window:1.0.0-beta04] /Users/kerry/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+112    </application>
+113
+114</manifest>

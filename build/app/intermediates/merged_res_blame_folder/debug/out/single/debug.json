@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-merged_res-19:/layout_activity_test_layout.xml.flat",
+        "source": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-main-13:/layout/activity_test_layout.xml"
+    },
+    {
+        "merged": "com.example.fusion.fusion_test.app-merged_res-19:/layout_activity_normal_layout.xml.flat",
+        "source": "com.example.fusion.fusion_test.app-main-13:/layout/activity_normal_layout.xml"
+    },
+    {
+        "merged": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-merged_res-19:/drawable_launch_background.xml.flat",
+        "source": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-main-13:/drawable/launch_background.xml"
+    },
+    {
+        "merged": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-merged_res-19:/layout_activity_custom_layout.xml.flat",
+        "source": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-main-13:/layout/activity_custom_layout.xml"
+    },
+    {
+        "merged": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-merged_res-19:/layout_activity_main_layout.xml.flat",
+        "source": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-main-13:/layout/activity_main_layout.xml"
+    },
+    {
+        "merged": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-merged_res-19:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-main-13:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-merged_res-19:/layout_activity_transparent_layout.xml.flat",
+        "source": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-main-13:/layout/activity_transparent_layout.xml"
+    },
+    {
+        "merged": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-merged_res-19:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-main-13:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-merged_res-19:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-main-13:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-merged_res-19:/layout_activity_normal_layout.xml.flat",
+        "source": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-main-13:/layout/activity_normal_layout.xml"
+    },
+    {
+        "merged": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-merged_res-19:/drawable-v21_launch_background.xml.flat",
+        "source": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-main-13:/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-merged_res-19:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-main-13:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-merged_res-19:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-main-13:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-merged_res-19:/layout_activity_normal.xml.flat",
+        "source": "/Users/kerry/.gradle/daemon/7.5/com.example.fusion.fusion_test.app-main-13:/layout/activity_normal.xml"
+    }
+]
